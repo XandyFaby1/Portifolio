@@ -35,9 +35,7 @@ span{
     padding: 10px;
 }
 
-img {
-    width: 18.75rem;
-    height: auto;
+.apresentacao__imagem {
     border-radius: 20px;
 }
 
@@ -157,6 +155,12 @@ img {
 
     .apresentacao__conteudo {
         width: 100%;
+    }
+
+    .apresentacao__conteudo__paragrafo {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0 10px; /* Adiciona preenchimento lateral */
     }
 }
 
